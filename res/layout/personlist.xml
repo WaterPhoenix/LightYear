@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+  
+   <RelativeLayout
+   android:id="@+id/layoutheadPersonlist"
+    android:layout_width="fill_parent" 
+    android:layout_height="30dip" 
+    android:background="@drawable/head"
+    >
+     <ImageView
+   android:id="@+id/userImagePersonList"
+   android:layout_width="30dip" 
+   android:layout_height="30dip" 
+   android:layout_marginLeft="5dip"
+   android:src="@drawable/icon"
+   />
+   <TextView
+   android:id="@+id/userNamePersonList"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="心中的光年"
+    android:textSize="12dip"
+    android:layout_toRightOf="@id/userImagePersonList"
+    android:layout_marginLeft="5dip"
+    android:layout_marginTop="5dip"
+   />
+    <TextView
+    android:text="用户列表"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dip"
+    />
+    </RelativeLayout>
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_below="@id/layoutheadPersonlist">
+  <ListView
+	android:id="@+id/listViewPersonList"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_login"
+/>
+  </RelativeLayout>
+  
+  <RelativeLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="30dip" 
+    android:background="@drawable/head"
+    android:layout_alignParentBottom="true"
+    >
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">光年</string>
+    <string name="user_name_login">登录名</string>
+    <string name="user_pass_login">密码</string>
+</resources>

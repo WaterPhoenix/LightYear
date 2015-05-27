@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+  <ImageView
+  	android:id="@+id/imagePersonInfoList"
+  	android:layout_width="80dip"
+  	android:layout_height="80dip"
+  	android:layout_marginLeft="5dip"
+  	android:layout_marginTop="5dip"
+  	android:src="@drawable/personpage"
+  />
+  <TextView
+  	android:id="@+id/loadNumLabelPersonInfoListElement"
+  	android:layout_width="60dip"
+  	android:layout_height="wrap_content"
+  	android:layout_toRightOf="@id/imagePersonInfoList"
+  	android:layout_marginTop="15dip"
+  	android:layout_marginLeft="10dip"
+  	android:text="登陆名"
+  />
+  <TextView
+  	android:id="@+id/loadNumTextPersonInfoList"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_toRightOf="@id/loadNumLabelPersonInfoListElement"
+  	android:layout_marginTop="15dip"
+  	android:layout_marginLeft="10dip"
+  	android:text="HELLO_ANDROID"
+  />
+  <TextView
+  	android:id="@+id/signLabelPersonInfoListElement"
+  	android:layout_width="60dip"
+  	android:layout_height="wrap_content"
+  	android:layout_toRightOf="@id/imagePersonInfoList"
+  	android:layout_below="@id/loadNumLabelPersonInfoListElement"
+  	android:layout_marginTop="5dip"
+  	android:layout_marginLeft="10dip"
+  	android:text="签名"
+  />
+  <TextView
+  	android:id="@+id/signTextPersonInfoList"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@id/loadNumLabelPersonInfoListElement"
+  	android:layout_toRightOf="@id/signLabelPersonInfoListElement"
+  	android:layout_marginTop="5dip"
+  	android:layout_marginLeft="10dip"
+  	android:text="哈 哈"
+  />
+  <TextView
+  	android:id="@+id/registerLabelPersonInfoListElement"
+  	android:layout_width="60dip"
+  	android:layout_height="wrap_content"
+  	android:layout_toRightOf="@id/imagePersonInfoList"
+  	android:layout_below="@id/signLabelPersonInfoListElement"
+  	android:layout_marginTop="5dip"
+  	android:layout_marginLeft="10dip"
+  	android:text="注册日期"
+  />
+  <TextView
+  	android:id="@+id/registerTextPersonInfoList"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@id/signLabelPersonInfoListElement"
+  	android:layout_toRightOf="@id/registerLabelPersonInfoListElement"
+  	android:layout_marginTop="5dip"
+  	android:layout_marginLeft="10dip"
+  	android:text="2013-03-22"
+  />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/viewblog"
+  >
+ <EditText
+  	android:id="@+id/blogNameTextWriteBlog"
+  	android:layout_width="290dip"
+  	android:layout_height="40dip"
+  	android:layout_marginLeft="10dip"
+  	android:layout_marginTop="5dip"
+  	android:hint="日志标题"
+  	android:layout_centerHorizontal="true"
+  />
+  <EditText
+  	android:id="@+id/blogContentTextWriteBlog"
+  	android:layout_width="290dip"
+  	android:layout_height="250dip"
+  	android:layout_marginLeft="10dip"
+  	android:layout_marginTop="5dip"
+  	android:layout_below="@id/blogNameTextWriteBlog"
+  	android:singleLine="false"
+  	android:hint="开始书写心情吧"
+  	android:layout_centerHorizontal="true"
+  />
+  <Button
+  	android:id="@+id/writeBlogButtonWriteBlog"
+  	android:text="发表日志"
+	android:layout_width="290dip"
+  	android:layout_height="40dip"
+  	android:layout_below="@id/blogContentTextWriteBlog"
+  	android:layout_marginLeft="10dip"
+  	android:layout_marginTop="5dip"
+  	android:layout_centerHorizontal="true"
+  />
+</RelativeLayout>
